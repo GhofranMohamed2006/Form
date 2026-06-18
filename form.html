@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="CSS\form.css">
+</head>
+<body>
+    <div class="form">
+        <form onsubmit="this.reset(); return false;">
+            <b>Name:</b>
+            <input name="the name" type="text" placeholder="write here" maxlength="10" required>
+            <br><br>
+            <b>Password</b>
+            <input name="password" type="password" placeholder="password">
+            <br><br>
+            <b>Date of Birth:</b>
+            <input name="date" type="date">
+            <br><br>
+            <b>Gender:</b>
+            Male
+            <input name="gender" type="radio">
+            Female
+            <input name="gender" type="radio">
+            <br><br>
+            <input name="upload" type="file" value="upload" size="100">
+            <!-- <pre> --> <br><br>
+            <textarea name="comments" type="text" cols="10" rows="6">Text</textarea>
+            <br>
+            <input name="delete" type="reset" value="delete" class="button">  <input name="reset" type="reset" value="reset" class="button">
+            <br><br>
+            Accept
+            <input name="element" type="radio" value="1" checked>
+            <br>
+            Not Accept
+            <input name="element" type="radio" value="2" checked>
+            <br><br>
+            <button><a href="#" target="_blank">Submit</a></button>
+        </form>
+    </div>
+</body>
+</html>
